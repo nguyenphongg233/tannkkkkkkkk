@@ -9,20 +9,19 @@ pygame.mixer.init()
 screensize = []
 screensize = pygame.display.get_desktop_sizes()
 pygame.display.set_caption("honganhcute")
-pygame.display.set_icon(pygame.image.load('E:\Code\Python\Thonny\head.png'))
 tanker = []
-tanker.append(pygame.image.load("E:\Code\Game\\tanker.png"))
-tanker.append(pygame.image.load("E:\Code\Game\\tanker2.png"))
+tanker.append(pygame.image.load("tanker.png"))
+tanker.append(pygame.image.load("tanker2.png"))
 wx = []
-wx.append(pygame.image.load("E:\Code\Game\\awin.png"))
-wx.append(pygame.image.load("E:\Code\Game\Bwin.png"))
+wx.append(pygame.image.load("awin.png"))
+wx.append(pygame.image.load("Bwin.png"))
 
-gunsound = pygame.mixer.Sound("E:\Code\Game\\fd.mp3")
+gunsound = pygame.mixer.Sound("fd.mp3")
 xc = []
-xc.append(pygame.mixer.Sound("E:\Code\Game\loser.mp3"))
-xc.append(pygame.mixer.Sound("E:\Code\Game\loser.mp3"))
+xc.append(pygame.mixer.Sound("loser.mp3"))
+xc.append(pygame.mixer.Sound("loser.mp3"))
 
-background = pygame.image.load("E:\Code\Game\Root.png")
+background = pygame.image.load("Root.png")
 
 font = pygame.font.Font('freesansbold.ttf', 32)
 
