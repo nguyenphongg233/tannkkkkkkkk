@@ -148,7 +148,7 @@ def update () :
     pygame.display.update()
     time.sleep(0.1)
 
-    return 0
+    return 2
 
 while running: 
 
@@ -186,7 +186,7 @@ while running:
     s = str(score1) + "-" + str(score2)
     xtt = update()
 
-    if xtt == 2 : 
+    if xtt == 0 : 
         score1 += 1
     elif xtt == 1 :
         score2 += 1
