@@ -1,0 +1,29 @@
+pygame.image.load(..)
+pygame.image.rotate(...,degree)
+
+imagex = pygame.image.load(...)
+screen.blit(imagex,(x,y))
+
+pygame.display.update()
+screen = pygame.display.setmode([x,y])
+
+pygame.mixer.Sound
+pygame.mixer.music.play
+
+pygame.draw.rect(screen,'Black',(35,125,465 - 35 + 1,835 - 125 + 1))
+
+// turn left 
+
+(41,131) , (460,830)
+(545,208)
+73,799
+dx[] = up , left , down , right 
+
+  y
+x 0 1 2 3 4 
+  1
+  2
+  3
+  4
+  5
+
